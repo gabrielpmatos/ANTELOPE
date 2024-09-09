@@ -9,7 +9,7 @@ from sklearn.metrics import roc_auc_score, roc_curve
 from sklearn.model_selection import train_test_split
 from joblib import dump, load
 from models import *
-from root_to_numpy import *
+from reader import *
 from plot_helper import *
 from eval_helper import *
 

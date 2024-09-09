@@ -1,6 +1,6 @@
 import numpy as np
 import json
-from root_to_numpy import *
+from reader import *
 from tensorflow import keras
 from tensorflow import saved_model
 from sklearn.metrics import roc_auc_score, roc_curve
